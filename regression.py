@@ -86,6 +86,7 @@ model = LinearRegression()
 
 model.fit(X_train, y_train)
 
+
 predicted = model.predict(X_test)
 
 mse = mean_squared_error(y_test, predicted)
@@ -93,6 +94,7 @@ r2 = r2_score(y_test, predicted)
 
 
 pickle.dump(model, open('model.pkl','wb'))
+
 
 
 testrun = pickle.load(open('model.pkl','rb'))
