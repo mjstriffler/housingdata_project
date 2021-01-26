@@ -29,7 +29,7 @@ def predict():
     combined_data = pd.get_dummies(data, columns= dummy)
 
     # Make prediction using model loaded from disk as per the data.
-    prediction = testrun_updated.predict([[np.array(combined_data['Net Migration'])]])
+    prediction = testrun.predict([[np.array(combined_data['Net Migration'])]])
 
 
     # Take the first value of prediction
