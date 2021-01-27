@@ -1,0 +1,3046 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1208.1036                               -->
+<workbook source-build='2020.3.4 (20203.20.1208.1036)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Table (state_to_state_migrations_table_2010_cleaned2)' inline='true' name='federated.12g4b3r1jvsujx14mxzzx1bj9su7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2010-2019combineddata' name='excel-direct.06pc58n1qhqh941beke1t0sfbkq5'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/asrit/Desktop/housingdata_project/2010-2019combineddata.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+          <named-connection caption='state_to_state_migrations_table_2010_cleaned2' name='excel-direct.109nxhx1f0riju1goouv30xw6t6q'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/asrit/Desktop/housingdata_project/cleaned excels/state_to_state_migrations_table_2010_cleaned2.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.06pc58n1qhqh941beke1t0sfbkq5' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BO511:no:A1:BO511:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='Before Tax Change' ordinal='1' />
+            <column datatype='string' name='Current residence in' ordinal='2' />
+            <column datatype='integer' name='Total Population' ordinal='3' />
+            <column datatype='integer' name='Same house 1 year ago' ordinal='4' />
+            <column datatype='integer' name='Same state of residence 1 year ago' ordinal='5' />
+            <column datatype='integer' name='Total_Incoming' ordinal='6' />
+            <column datatype='integer' name='Total_Outgoing' ordinal='7' />
+            <column datatype='integer' name='Net Migration' ordinal='8' />
+            <column datatype='string' name='Net Migrationpn' ordinal='9' />
+            <column datatype='real' name='Avg Home Price' ordinal='10' />
+            <column datatype='integer' name='Median Income' ordinal='11' />
+            <column datatype='real' name='Unemployment Rate' ordinal='12' />
+            <column datatype='integer' name='Alabama' ordinal='13' />
+            <column datatype='integer' name='Alaska' ordinal='14' />
+            <column datatype='integer' name='Arizona' ordinal='15' />
+            <column datatype='integer' name='Arkansas' ordinal='16' />
+            <column datatype='integer' name='California' ordinal='17' />
+            <column datatype='integer' name='Colorado' ordinal='18' />
+            <column datatype='integer' name='Connecticut' ordinal='19' />
+            <column datatype='integer' name='Delaware' ordinal='20' />
+            <column datatype='integer' name='DistrictColumbia' ordinal='21' />
+            <column datatype='integer' name='Florida' ordinal='22' />
+            <column datatype='integer' name='Georgia' ordinal='23' />
+            <column datatype='integer' name='Hawaii' ordinal='24' />
+            <column datatype='integer' name='Idaho' ordinal='25' />
+            <column datatype='integer' name='Illinois' ordinal='26' />
+            <column datatype='integer' name='Indiana' ordinal='27' />
+            <column datatype='integer' name='Iowa' ordinal='28' />
+            <column datatype='integer' name='Kansas' ordinal='29' />
+            <column datatype='integer' name='Kentucky' ordinal='30' />
+            <column datatype='integer' name='Louisiana' ordinal='31' />
+            <column datatype='integer' name='Maine' ordinal='32' />
+            <column datatype='integer' name='Maryland' ordinal='33' />
+            <column datatype='integer' name='Massachusetts' ordinal='34' />
+            <column datatype='integer' name='Michigan' ordinal='35' />
+            <column datatype='integer' name='Minnesota' ordinal='36' />
+            <column datatype='integer' name='Mississippi' ordinal='37' />
+            <column datatype='integer' name='Missouri' ordinal='38' />
+            <column datatype='integer' name='Montana' ordinal='39' />
+            <column datatype='integer' name='Nebraska' ordinal='40' />
+            <column datatype='integer' name='Nevada' ordinal='41' />
+            <column datatype='integer' name='New Hampshire' ordinal='42' />
+            <column datatype='integer' name='New Jersey' ordinal='43' />
+            <column datatype='integer' name='New Mexico' ordinal='44' />
+            <column datatype='integer' name='New York' ordinal='45' />
+            <column datatype='integer' name='North Carolina' ordinal='46' />
+            <column datatype='integer' name='North Dakota' ordinal='47' />
+            <column datatype='integer' name='Ohio' ordinal='48' />
+            <column datatype='integer' name='Oklahoma' ordinal='49' />
+            <column datatype='integer' name='Oregon' ordinal='50' />
+            <column datatype='integer' name='Pennsylvania' ordinal='51' />
+            <column datatype='integer' name='Rhode Island' ordinal='52' />
+            <column datatype='integer' name='South Carolina' ordinal='53' />
+            <column datatype='integer' name='South Dakota' ordinal='54' />
+            <column datatype='integer' name='Tennessee' ordinal='55' />
+            <column datatype='integer' name='Texas' ordinal='56' />
+            <column datatype='integer' name='Utah' ordinal='57' />
+            <column datatype='integer' name='Vermont' ordinal='58' />
+            <column datatype='integer' name='Virginia' ordinal='59' />
+            <column datatype='integer' name='Washington' ordinal='60' />
+            <column datatype='integer' name='West Virginia' ordinal='61' />
+            <column datatype='integer' name='Wisconsin' ordinal='62' />
+            <column datatype='integer' name='Wyoming' ordinal='63' />
+            <column datatype='integer' name='Puerto Rico' ordinal='64' />
+            <column datatype='integer' name='US Island Area' ordinal='65' />
+            <column datatype='integer' name='Foreign Country' ordinal='66' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.06pc58n1qhqh941beke1t0sfbkq5' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BO511:no:A1:BO511:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='string' name='Before Tax Change' ordinal='1' />
+            <column datatype='string' name='Current residence in' ordinal='2' />
+            <column datatype='integer' name='Total Population' ordinal='3' />
+            <column datatype='integer' name='Same house 1 year ago' ordinal='4' />
+            <column datatype='integer' name='Same state of residence 1 year ago' ordinal='5' />
+            <column datatype='integer' name='Total_Incoming' ordinal='6' />
+            <column datatype='integer' name='Total_Outgoing' ordinal='7' />
+            <column datatype='integer' name='Net Migration' ordinal='8' />
+            <column datatype='string' name='Net Migrationpn' ordinal='9' />
+            <column datatype='real' name='Avg Home Price' ordinal='10' />
+            <column datatype='integer' name='Median Income' ordinal='11' />
+            <column datatype='real' name='Unemployment Rate' ordinal='12' />
+            <column datatype='integer' name='Alabama' ordinal='13' />
+            <column datatype='integer' name='Alaska' ordinal='14' />
+            <column datatype='integer' name='Arizona' ordinal='15' />
+            <column datatype='integer' name='Arkansas' ordinal='16' />
+            <column datatype='integer' name='California' ordinal='17' />
+            <column datatype='integer' name='Colorado' ordinal='18' />
+            <column datatype='integer' name='Connecticut' ordinal='19' />
+            <column datatype='integer' name='Delaware' ordinal='20' />
+            <column datatype='integer' name='DistrictColumbia' ordinal='21' />
+            <column datatype='integer' name='Florida' ordinal='22' />
+            <column datatype='integer' name='Georgia' ordinal='23' />
+            <column datatype='integer' name='Hawaii' ordinal='24' />
+            <column datatype='integer' name='Idaho' ordinal='25' />
+            <column datatype='integer' name='Illinois' ordinal='26' />
+            <column datatype='integer' name='Indiana' ordinal='27' />
+            <column datatype='integer' name='Iowa' ordinal='28' />
+            <column datatype='integer' name='Kansas' ordinal='29' />
+            <column datatype='integer' name='Kentucky' ordinal='30' />
+            <column datatype='integer' name='Louisiana' ordinal='31' />
+            <column datatype='integer' name='Maine' ordinal='32' />
+            <column datatype='integer' name='Maryland' ordinal='33' />
+            <column datatype='integer' name='Massachusetts' ordinal='34' />
+            <column datatype='integer' name='Michigan' ordinal='35' />
+            <column datatype='integer' name='Minnesota' ordinal='36' />
+            <column datatype='integer' name='Mississippi' ordinal='37' />
+            <column datatype='integer' name='Missouri' ordinal='38' />
+            <column datatype='integer' name='Montana' ordinal='39' />
+            <column datatype='integer' name='Nebraska' ordinal='40' />
+            <column datatype='integer' name='Nevada' ordinal='41' />
+            <column datatype='integer' name='New Hampshire' ordinal='42' />
+            <column datatype='integer' name='New Jersey' ordinal='43' />
+            <column datatype='integer' name='New Mexico' ordinal='44' />
+            <column datatype='integer' name='New York' ordinal='45' />
+            <column datatype='integer' name='North Carolina' ordinal='46' />
+            <column datatype='integer' name='North Dakota' ordinal='47' />
+            <column datatype='integer' name='Ohio' ordinal='48' />
+            <column datatype='integer' name='Oklahoma' ordinal='49' />
+            <column datatype='integer' name='Oregon' ordinal='50' />
+            <column datatype='integer' name='Pennsylvania' ordinal='51' />
+            <column datatype='integer' name='Rhode Island' ordinal='52' />
+            <column datatype='integer' name='South Carolina' ordinal='53' />
+            <column datatype='integer' name='South Dakota' ordinal='54' />
+            <column datatype='integer' name='Tennessee' ordinal='55' />
+            <column datatype='integer' name='Texas' ordinal='56' />
+            <column datatype='integer' name='Utah' ordinal='57' />
+            <column datatype='integer' name='Vermont' ordinal='58' />
+            <column datatype='integer' name='Virginia' ordinal='59' />
+            <column datatype='integer' name='Washington' ordinal='60' />
+            <column datatype='integer' name='West Virginia' ordinal='61' />
+            <column datatype='integer' name='Wisconsin' ordinal='62' />
+            <column datatype='integer' name='Wyoming' ordinal='63' />
+            <column datatype='integer' name='Puerto Rico' ordinal='64' />
+            <column datatype='integer' name='US Island Area' ordinal='65' />
+            <column datatype='integer' name='Foreign Country' ordinal='66' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <refresh append-to-last-path='/Users/SikCommunications/housingdata_project/cleaned excels/State_to_State_Migrations_Table_2019_clean2.xls' />
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BO511:no:A1:BO511:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Before Tax Change</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Before Tax Change]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Before Tax Change</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current residence in</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Current residence in]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Current residence in</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Population]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Population</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Same house 1 year ago</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Same house 1 year ago]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Same house 1 year ago</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Same state of residence 1 year ago</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Same state of residence 1 year ago]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Same state of residence 1 year ago</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Incoming</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Incoming]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total_Incoming</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Outgoing</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Outgoing]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total_Outgoing</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Migration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Net Migration]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Net Migration</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net Migrationpn</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Net Migrationpn]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Net Migrationpn</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg Home Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg Home Price]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Avg Home Price</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median Income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median Income]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Median Income</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unemployment Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unemployment Rate]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Unemployment Rate</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alabama</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alabama]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Alabama</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alaska</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alaska]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Alaska</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arizona</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Arizona]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Arizona</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arkansas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Arkansas]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Arkansas</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>California</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[California]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>California</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Colorado</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Colorado]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Colorado</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Connecticut</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Connecticut]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Connecticut</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delaware</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Delaware]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Delaware</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DistrictColumbia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DistrictColumbia]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>DistrictColumbia</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Florida</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Florida]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Florida</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Georgia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Georgia]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Georgia</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hawaii</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hawaii]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Hawaii</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Idaho</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Idaho]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Idaho</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Illinois</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Illinois]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Illinois</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indiana</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Indiana]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Indiana</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Iowa</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Iowa]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Iowa</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kansas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kansas]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Kansas</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Kentucky</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Kentucky]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Kentucky</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Louisiana</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Louisiana]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Louisiana</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maine</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Maine]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Maine</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maryland</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Maryland]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Maryland</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Massachusetts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Massachusetts]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Massachusetts</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Michigan</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Michigan]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Michigan</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minnesota</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Minnesota]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Minnesota</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mississippi</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mississippi]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Mississippi</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Missouri</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Missouri]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Missouri</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Montana</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Montana]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Montana</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nebraska</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nebraska]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Nebraska</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nevada</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Nevada]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Nevada</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Hampshire</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Hampshire]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>New Hampshire</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Jersey</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Jersey]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>New Jersey</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New Mexico</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New Mexico]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>New Mexico</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New York</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[New York]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>New York</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>North Carolina</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[North Carolina]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>North Carolina</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>North Dakota</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[North Dakota]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>North Dakota</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ohio</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Ohio]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ohio</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oklahoma</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oklahoma]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oklahoma</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oregon</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Oregon]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Oregon</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pennsylvania</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pennsylvania]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Pennsylvania</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rhode Island</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rhode Island]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rhode Island</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>South Carolina</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[South Carolina]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>South Carolina</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>South Dakota</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[South Dakota]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>South Dakota</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tennessee</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tennessee]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Tennessee</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Texas</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Texas]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Texas</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Utah</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Utah]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Utah</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vermont</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Vermont]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Vermont</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Virginia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Virginia]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Virginia</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Washington</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Washington]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Washington</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>West Virginia</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[West Virginia]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>West Virginia</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wisconsin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wisconsin]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Wisconsin</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wyoming</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wyoming]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Wyoming</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Puerto Rico</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Puerto Rico]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Puerto Rico</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>US Island Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[US Island Area]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>US Island Area</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foreign Country</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Foreign Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Foreign Country</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Alabama]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Alaska]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Arizona]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[California]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Colorado]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Connecticut]' role='measure' type='quantitative' />
+      <column caption='US Region' datatype='string' name='[Current residence in (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='categorical-bin' column='[Current residence in]' new-bin='true'>
+          <bin default-name='false' value='&quot;Midwest&quot;'>
+            <value>&quot;Illinois&quot;</value>
+            <value>&quot;Indiana&quot;</value>
+            <value>&quot;Iowa&quot;</value>
+            <value>&quot;Kansas&quot;</value>
+            <value>&quot;Michigan&quot;</value>
+            <value>&quot;Minnesota&quot;</value>
+            <value>&quot;Missouri&quot;</value>
+            <value>&quot;Nebraska&quot;</value>
+            <value>&quot;North Dakota&quot;</value>
+            <value>&quot;Ohio&quot;</value>
+            <value>&quot;South Dakota&quot;</value>
+            <value>&quot;Wisconsin&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Northeast&quot;'>
+            <value>&quot;Connecticut&quot;</value>
+            <value>&quot;Delaware&quot;</value>
+            <value>&quot;Maine&quot;</value>
+            <value>&quot;Massachusetts&quot;</value>
+            <value>&quot;New Hampshire&quot;</value>
+            <value>&quot;New Jersey&quot;</value>
+            <value>&quot;New York&quot;</value>
+            <value>&quot;Pennsylvania&quot;</value>
+            <value>&quot;Rhode Island&quot;</value>
+            <value>&quot;Vermont&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Southeast&quot;'>
+            <value>&quot;Alabama&quot;</value>
+            <value>&quot;Arkansas&quot;</value>
+            <value>&quot;District of Columbia&quot;</value>
+            <value>&quot;Florida&quot;</value>
+            <value>&quot;Georgia&quot;</value>
+            <value>&quot;Kentucky&quot;</value>
+            <value>&quot;Louisiana&quot;</value>
+            <value>&quot;Maryland&quot;</value>
+            <value>&quot;Mississippi&quot;</value>
+            <value>&quot;North Carolina&quot;</value>
+            <value>&quot;South Carolina&quot;</value>
+            <value>&quot;Tennessee&quot;</value>
+            <value>&quot;Virginia&quot;</value>
+            <value>&quot;West Virginia&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;Southwest&quot;'>
+            <value>&quot;Arizona&quot;</value>
+            <value>&quot;New Mexico&quot;</value>
+            <value>&quot;Oklahoma&quot;</value>
+            <value>&quot;Texas&quot;</value>
+          </bin>
+          <bin default-name='false' value='&quot;West&quot;'>
+            <value>&quot;Alaska&quot;</value>
+            <value>&quot;California&quot;</value>
+            <value>&quot;Colorado&quot;</value>
+            <value>&quot;Hawaii&quot;</value>
+            <value>&quot;Idaho&quot;</value>
+            <value>&quot;Montana&quot;</value>
+            <value>&quot;Nevada&quot;</value>
+            <value>&quot;Oregon&quot;</value>
+            <value>&quot;Utah&quot;</value>
+            <value>&quot;Washington&quot;</value>
+            <value>&quot;Wyoming&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Current residence in]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Delaware]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[District of Columbia]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Florida]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Georgia]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Hawaii]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Idaho]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Illinois]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Indiana]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Iowa]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Kansas]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Kentucky]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Louisiana]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Maine]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Maryland]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Massachusetts]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Michigan]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Minnesota]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Mississippi]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Missouri]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Montana]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Nebraska]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Nevada]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Hampshire]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Jersey]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New Mexico]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[New York]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[North Carolina]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[North Dakota]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Ohio]' role='measure' type='quantitative' />
+      <column caption='Total Incoming' datatype='integer' name='[Total_Incoming]' role='measure' type='quantitative' />
+      <column caption='Total Outgoing' datatype='integer' name='[Total_Outgoing]' role='measure' type='quantitative' />
+      <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]' role='measure' type='quantitative' />
+      <column-instance column='[Alabama]' derivation='Avg' name='[avg:Alabama:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Alabama]' derivation='None' name='[none:Alabama:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Alabama]' derivation='Sum' name='[sum:Alabama:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Alaska]' derivation='Sum' name='[sum:Alaska:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Arizona]' derivation='Sum' name='[sum:Arizona:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[California]' derivation='Sum' name='[sum:California:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Colorado]' derivation='Sum' name='[sum:Colorado:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Connecticut]' derivation='Sum' name='[sum:Connecticut:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Delaware]' derivation='Sum' name='[sum:Delaware:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[District of Columbia]' derivation='Sum' name='[sum:District of Columbia:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Florida]' derivation='Sum' name='[sum:Florida:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Georgia]' derivation='Sum' name='[sum:Georgia:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Hawaii]' derivation='Sum' name='[sum:Hawaii:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Idaho]' derivation='Sum' name='[sum:Idaho:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Illinois]' derivation='Sum' name='[sum:Illinois:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Indiana]' derivation='Sum' name='[sum:Indiana:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Iowa]' derivation='Sum' name='[sum:Iowa:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Kansas]' derivation='Sum' name='[sum:Kansas:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Kentucky]' derivation='Sum' name='[sum:Kentucky:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Louisiana]' derivation='Sum' name='[sum:Louisiana:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Maine]' derivation='Sum' name='[sum:Maine:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Maryland]' derivation='Sum' name='[sum:Maryland:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Massachusetts]' derivation='Sum' name='[sum:Massachusetts:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Michigan]' derivation='Sum' name='[sum:Michigan:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Minnesota]' derivation='Sum' name='[sum:Minnesota:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Mississippi]' derivation='Sum' name='[sum:Mississippi:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Missouri]' derivation='Sum' name='[sum:Missouri:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Montana]' derivation='Sum' name='[sum:Montana:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nebraska]' derivation='Sum' name='[sum:Nebraska:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Nevada]' derivation='Sum' name='[sum:Nevada:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Hampshire]' derivation='Sum' name='[sum:New Hampshire:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Jersey]' derivation='Sum' name='[sum:New Jersey:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New Mexico]' derivation='Sum' name='[sum:New Mexico:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[New York]' derivation='Sum' name='[sum:New York:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[North Carolina]' derivation='Sum' name='[sum:North Carolina:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[North Dakota]' derivation='Sum' name='[sum:North Dakota:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Ohio]' derivation='Sum' name='[sum:Ohio:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/asrit/AppData/Local/Temp/TableauTemp/080ju5i00ydx7f1gz8vb20dtbj2s/Users/SikCommunications/Documents/My Tableau Repository/Datasources/Consolidated.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/23/2021 11:57:55 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh append-to-last-path='/Users/SikCommunications/housingdata_project/cleaned excels/State_to_State_Migrations_Table_2019_clean2.xls'>
+            <refresh-event add-from-file-path='Table (state_to_state_migrations_table_2010_cleaned2)' increment-value='%null%' refresh-type='create' rows-inserted='510' timestamp-start='2021-01-23 23:57:55.464' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Before Tax Change</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Before Tax Change]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Before Tax Change</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Current residence in</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Current residence in]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Current residence in</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>51</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Population</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Population]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Population</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>510</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Same house 1 year ago</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Same house 1 year ago]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Same house 1 year ago</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>510</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Same state of residence 1 year ago</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Same state of residence 1 year ago]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Same state of residence 1 year ago</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>510</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Incoming</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Incoming]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Incoming</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>509</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total_Outgoing</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total_Outgoing]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total_Outgoing</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>509</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Net Migration</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Net Migration]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Net Migration</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>508</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Net Migation(p/n)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Net Migation(p/n)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Net Migation(p/n)</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg. Home Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg. Home Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg. Home Price</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>510</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Median Income</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Median Income]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Median Income</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>509</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unemployment Rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unemployment Rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unemployment Rate</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Sheet1</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>89</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Alabama</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Alabama]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Alabama</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>430</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Alaska</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Alaska]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Alaska</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>430</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Arizona</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Arizona]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Arizona</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>473</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Arkansas</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Arkansas]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Arkansas</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>406</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>California</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[California]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>California</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>492</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Colorado</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Colorado]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Colorado</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>477</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Connecticut</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Connecticut]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Connecticut</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>429</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delaware</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Delaware]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delaware</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>287</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>District of Columbia</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[District of Columbia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>District of Columbia</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>356</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Florida</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Florida]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Florida</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>496</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Georgia</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Georgia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Georgia</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>479</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Hawaii</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Hawaii]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Hawaii</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>409</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Idaho</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Idaho]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Idaho</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>378</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Illinois</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Illinois]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Illinois</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>485</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Indiana</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Indiana]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Indiana</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>450</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Iowa</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Iowa]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Iowa</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>428</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kansas</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Kansas]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Kansas</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>427</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Kentucky</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Kentucky]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Kentucky</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>429</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Louisiana</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Louisiana]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Louisiana</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>431</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Maine</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Maine]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Maine</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>346</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Maryland</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Maryland]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Maryland</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>455</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Massachusetts</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Massachusetts]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Massachusetts</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>452</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Michigan</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Michigan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Michigan</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>479</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Minnesota</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Minnesota]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Minnesota</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>461</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mississippi</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mississippi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mississippi</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>407</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Missouri</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Missouri]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Missouri</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>468</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Montana</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Montana]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Montana</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>371</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nebraska</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Nebraska]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nebraska</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>391</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Nevada</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Nevada]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Nevada</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>435</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New Hampshire</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[New Hampshire]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New Hampshire</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>345</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New Jersey</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[New Jersey]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New Jersey</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>461</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New Mexico</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[New Mexico]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New Mexico</remote-alias>
+              <ordinal>44</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>415</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>New York</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[New York]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>New York</remote-alias>
+              <ordinal>45</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>494</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>North Carolina</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[North Carolina]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>North Carolina</remote-alias>
+              <ordinal>46</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>486</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>North Dakota</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[North Dakota]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>North Dakota</remote-alias>
+              <ordinal>47</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>323</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ohio</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Ohio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ohio</remote-alias>
+              <ordinal>48</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>474</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Oklahoma</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Oklahoma]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Oklahoma</remote-alias>
+              <ordinal>49</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>431</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Oregon</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Oregon]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Oregon</remote-alias>
+              <ordinal>50</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>442</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pennsylvania</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pennsylvania]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pennsylvania</remote-alias>
+              <ordinal>51</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>485</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rhode Island</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rhode Island]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rhode Island</remote-alias>
+              <ordinal>52</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>313</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>South Carolina</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[South Carolina]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>South Carolina</remote-alias>
+              <ordinal>53</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>454</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>South Dakota</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[South Dakota]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>South Dakota</remote-alias>
+              <ordinal>54</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>335</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Tennessee</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Tennessee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Tennessee</remote-alias>
+              <ordinal>55</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>476</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Texas</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Texas]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Texas</remote-alias>
+              <ordinal>56</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>499</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Utah</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Utah]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Utah</remote-alias>
+              <ordinal>57</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>447</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vermont</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Vermont]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vermont</remote-alias>
+              <ordinal>58</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>296</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Virginia</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Virginia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Virginia</remote-alias>
+              <ordinal>59</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>480</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Washington</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Washington]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Washington</remote-alias>
+              <ordinal>60</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>481</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>West Virginia</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[West Virginia]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>West Virginia</remote-alias>
+              <ordinal>61</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>342</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Wisconsin</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Wisconsin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Wisconsin</remote-alias>
+              <ordinal>62</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>443</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Wyoming</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Wyoming]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Wyoming</remote-alias>
+              <ordinal>63</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>350</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Puerto Rico</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Puerto Rico]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Puerto Rico</remote-alias>
+              <ordinal>64</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>407</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>U.S. Island Area</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[U.S. Island Area]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>U.S. Island Area</remote-alias>
+              <ordinal>65</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>295</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Foreign Country</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Foreign Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Foreign Country</remote-alias>
+              <ordinal>66</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>506</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_0EC7F545D628436C990F7F1ECE6D2859]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Georgia:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Minnesota:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:California:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Nevada:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Arizona:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Illinois:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:North Carolina:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Hampshire:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:District of Columbia:qk]&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Kentucky:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Maine:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Maryland:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Mississippi:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Connecticut:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Jersey:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Florida:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Hawaii:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Indiana:qk]&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Kansas:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Louisiana:qk]&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Michigan:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Alaska:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:North Dakota:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Ohio:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Colorado:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Mexico:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New York:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[avg:Alabama:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[none:Alabama:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Alabama:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Massachusetts:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Missouri:qk]&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Iowa:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Idaho:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Delaware:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Montana:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Nebraska:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_0EC7F545D628436C990F7F1ECE6D2859'>
+            <properties context=''>
+              <relation connection='excel-direct.06pc58n1qhqh941beke1t0sfbkq5' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:BO511:no:A1:BO511:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='string' name='Before Tax Change' ordinal='1' />
+                  <column datatype='string' name='Current residence in' ordinal='2' />
+                  <column datatype='integer' name='Total Population' ordinal='3' />
+                  <column datatype='integer' name='Same house 1 year ago' ordinal='4' />
+                  <column datatype='integer' name='Same state of residence 1 year ago' ordinal='5' />
+                  <column datatype='integer' name='Total_Incoming' ordinal='6' />
+                  <column datatype='integer' name='Total_Outgoing' ordinal='7' />
+                  <column datatype='integer' name='Net Migration' ordinal='8' />
+                  <column datatype='string' name='Net Migrationpn' ordinal='9' />
+                  <column datatype='real' name='Avg Home Price' ordinal='10' />
+                  <column datatype='integer' name='Median Income' ordinal='11' />
+                  <column datatype='real' name='Unemployment Rate' ordinal='12' />
+                  <column datatype='integer' name='Alabama' ordinal='13' />
+                  <column datatype='integer' name='Alaska' ordinal='14' />
+                  <column datatype='integer' name='Arizona' ordinal='15' />
+                  <column datatype='integer' name='Arkansas' ordinal='16' />
+                  <column datatype='integer' name='California' ordinal='17' />
+                  <column datatype='integer' name='Colorado' ordinal='18' />
+                  <column datatype='integer' name='Connecticut' ordinal='19' />
+                  <column datatype='integer' name='Delaware' ordinal='20' />
+                  <column datatype='integer' name='DistrictColumbia' ordinal='21' />
+                  <column datatype='integer' name='Florida' ordinal='22' />
+                  <column datatype='integer' name='Georgia' ordinal='23' />
+                  <column datatype='integer' name='Hawaii' ordinal='24' />
+                  <column datatype='integer' name='Idaho' ordinal='25' />
+                  <column datatype='integer' name='Illinois' ordinal='26' />
+                  <column datatype='integer' name='Indiana' ordinal='27' />
+                  <column datatype='integer' name='Iowa' ordinal='28' />
+                  <column datatype='integer' name='Kansas' ordinal='29' />
+                  <column datatype='integer' name='Kentucky' ordinal='30' />
+                  <column datatype='integer' name='Louisiana' ordinal='31' />
+                  <column datatype='integer' name='Maine' ordinal='32' />
+                  <column datatype='integer' name='Maryland' ordinal='33' />
+                  <column datatype='integer' name='Massachusetts' ordinal='34' />
+                  <column datatype='integer' name='Michigan' ordinal='35' />
+                  <column datatype='integer' name='Minnesota' ordinal='36' />
+                  <column datatype='integer' name='Mississippi' ordinal='37' />
+                  <column datatype='integer' name='Missouri' ordinal='38' />
+                  <column datatype='integer' name='Montana' ordinal='39' />
+                  <column datatype='integer' name='Nebraska' ordinal='40' />
+                  <column datatype='integer' name='Nevada' ordinal='41' />
+                  <column datatype='integer' name='New Hampshire' ordinal='42' />
+                  <column datatype='integer' name='New Jersey' ordinal='43' />
+                  <column datatype='integer' name='New Mexico' ordinal='44' />
+                  <column datatype='integer' name='New York' ordinal='45' />
+                  <column datatype='integer' name='North Carolina' ordinal='46' />
+                  <column datatype='integer' name='North Dakota' ordinal='47' />
+                  <column datatype='integer' name='Ohio' ordinal='48' />
+                  <column datatype='integer' name='Oklahoma' ordinal='49' />
+                  <column datatype='integer' name='Oregon' ordinal='50' />
+                  <column datatype='integer' name='Pennsylvania' ordinal='51' />
+                  <column datatype='integer' name='Rhode Island' ordinal='52' />
+                  <column datatype='integer' name='South Carolina' ordinal='53' />
+                  <column datatype='integer' name='South Dakota' ordinal='54' />
+                  <column datatype='integer' name='Tennessee' ordinal='55' />
+                  <column datatype='integer' name='Texas' ordinal='56' />
+                  <column datatype='integer' name='Utah' ordinal='57' />
+                  <column datatype='integer' name='Vermont' ordinal='58' />
+                  <column datatype='integer' name='Virginia' ordinal='59' />
+                  <column datatype='integer' name='Washington' ordinal='60' />
+                  <column datatype='integer' name='West Virginia' ordinal='61' />
+                  <column datatype='integer' name='Wisconsin' ordinal='62' />
+                  <column datatype='integer' name='Wyoming' ordinal='63' />
+                  <column datatype='integer' name='Puerto Rico' ordinal='64' />
+                  <column datatype='integer' name='US Island Area' ordinal='65' />
+                  <column datatype='integer' name='Foreign Country' ordinal='66' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table (state_to_state_migrations_table_2010_cleaned2)' name='federated.12g4b3r1jvsujx14mxzzx1bj9su7' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.12g4b3r1jvsujx14mxzzx1bj9su7'>
+            <column datatype='integer' name='[Alaska]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Arizona]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[California]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Colorado]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Connecticut]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Current residence in]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Delaware]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[District of Columbia]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Florida]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Georgia]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Hawaii]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Idaho]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Illinois]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Iowa]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Kansas]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Kentucky]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Louisiana]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Maine]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Maryland]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Massachusetts]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Michigan]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Minnesota]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Mississippi]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Missouri]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Nebraska]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Nevada]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Hampshire]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Jersey]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New Mexico]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[New York]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[North Carolina]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[North Dakota]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Ohio]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Oklahoma]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Oregon]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Pennsylvania]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Puerto Rico]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Rhode Island]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[South Carolina]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[South Dakota]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Tennessee]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Texas]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Utah]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Vermont]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Virginia]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Washington]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[West Virginia]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wisconsin]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wyoming]' role='measure' type='quantitative' />
+            <column-instance column='[Current residence in]' derivation='None' name='[none:Current residence in:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Alaska]' derivation='Sum' name='[sum:Alaska:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Arizona]' derivation='Sum' name='[sum:Arizona:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[California]' derivation='Sum' name='[sum:California:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Colorado]' derivation='Sum' name='[sum:Colorado:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Connecticut]' derivation='Sum' name='[sum:Connecticut:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Delaware]' derivation='Sum' name='[sum:Delaware:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[District of Columbia]' derivation='Sum' name='[sum:District of Columbia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Florida]' derivation='Sum' name='[sum:Florida:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Georgia]' derivation='Sum' name='[sum:Georgia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hawaii]' derivation='Sum' name='[sum:Hawaii:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Idaho]' derivation='Sum' name='[sum:Idaho:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Illinois]' derivation='Sum' name='[sum:Illinois:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Iowa]' derivation='Sum' name='[sum:Iowa:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Kansas]' derivation='Sum' name='[sum:Kansas:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Kentucky]' derivation='Sum' name='[sum:Kentucky:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Louisiana]' derivation='Sum' name='[sum:Louisiana:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Maine]' derivation='Sum' name='[sum:Maine:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Maryland]' derivation='Sum' name='[sum:Maryland:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Massachusetts]' derivation='Sum' name='[sum:Massachusetts:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Michigan]' derivation='Sum' name='[sum:Michigan:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Minnesota]' derivation='Sum' name='[sum:Minnesota:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Mississippi]' derivation='Sum' name='[sum:Mississippi:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Missouri]' derivation='Sum' name='[sum:Missouri:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nebraska]' derivation='Sum' name='[sum:Nebraska:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nevada]' derivation='Sum' name='[sum:Nevada:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Hampshire]' derivation='Sum' name='[sum:New Hampshire:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Jersey]' derivation='Sum' name='[sum:New Jersey:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New Mexico]' derivation='Sum' name='[sum:New Mexico:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[New York]' derivation='Sum' name='[sum:New York:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[North Carolina]' derivation='Sum' name='[sum:North Carolina:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[North Dakota]' derivation='Sum' name='[sum:North Dakota:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ohio]' derivation='Sum' name='[sum:Ohio:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Oklahoma]' derivation='Sum' name='[sum:Oklahoma:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Oregon]' derivation='Sum' name='[sum:Oregon:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Pennsylvania]' derivation='Sum' name='[sum:Pennsylvania:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Puerto Rico]' derivation='Sum' name='[sum:Puerto Rico:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rhode Island]' derivation='Sum' name='[sum:Rhode Island:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[South Carolina]' derivation='Sum' name='[sum:South Carolina:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[South Dakota]' derivation='Sum' name='[sum:South Dakota:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Tennessee]' derivation='Sum' name='[sum:Tennessee:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Texas]' derivation='Sum' name='[sum:Texas:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Utah]' derivation='Sum' name='[sum:Utah:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Vermont]' derivation='Sum' name='[sum:Vermont:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Virginia]' derivation='Sum' name='[sum:Virginia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Washington]' derivation='Sum' name='[sum:Washington:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[West Virginia]' derivation='Sum' name='[sum:West Virginia:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wisconsin]' derivation='Sum' name='[sum:Wisconsin:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wyoming]' derivation='Sum' name='[sum:Wyoming:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Alaska:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Arizona:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:California:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Colorado:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Connecticut:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Delaware:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:District of Columbia:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Florida:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Georgia:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Hawaii:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Idaho:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Illinois:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Iowa:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Kansas:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Kentucky:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Louisiana:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Maine:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Maryland:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Massachusetts:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Michigan:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Minnesota:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Mississippi:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Missouri:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Nebraska:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Nevada:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Hampshire:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Jersey:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Mexico:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New York:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:North Carolina:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:North Dakota:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Ohio:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Oklahoma:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Oregon:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Pennsylvania:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Puerto Rico:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Rhode Island:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:South Carolina:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:South Dakota:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Tennessee:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Texas:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Utah:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Vermont:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Virginia:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Washington:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:West Virginia:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Wisconsin:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Wyoming:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Alaska:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Arizona:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:California:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Colorado:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Connecticut:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Delaware:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:District of Columbia:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Florida:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Georgia:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Hawaii:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Idaho:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Illinois:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Iowa:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Kansas:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Kentucky:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Louisiana:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Maine:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Maryland:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Massachusetts:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Michigan:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Minnesota:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Mississippi:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Missouri:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Nebraska:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Nevada:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Hampshire:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Jersey:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New Mexico:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:New York:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:North Carolina:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:North Dakota:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Ohio:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Oklahoma:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Oregon:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Pennsylvania:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Puerto Rico:qk]&quot;</bucket>
+              <bucket>&quot;[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Rhode Island:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <alphabetic-sort column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[none:Current residence in:nk]' direction='ASC' />
+          <slices>
+            <column>[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[none:Current residence in:nk]' value='136' />
+            <format attr='band-color' scope='rows' value='#ddebf0' />
+            <format attr='background-color' value='#f0f7fa' />
+            <format attr='background-color' data-class='total' value='#00000000' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Multiple Values]' palette='sunrise_sunset_diverging_10_0' symmetric='false' type='interpolated' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#ffffff' />
+            <format attr='background-color' data-class='total' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='5' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Multiple Values]' />
+              <color column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[none:Current residence in:nk]</rows>
+        <cols>[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{2A034C41-3E24-4D39-BF47-1A5363D80E4F}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Table (state_to_state_migrations_table_2010_cleaned2)' name='federated.12g4b3r1jvsujx14mxzzx1bj9su7' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.12g4b3r1jvsujx14mxzzx1bj9su7'>
+            <column caption='US Region' datatype='string' name='[Current residence in (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <calculation class='categorical-bin' column='[Current residence in]' new-bin='true'>
+                <bin default-name='false' value='&quot;Midwest&quot;'>
+                  <value>&quot;Illinois&quot;</value>
+                  <value>&quot;Indiana&quot;</value>
+                  <value>&quot;Iowa&quot;</value>
+                  <value>&quot;Kansas&quot;</value>
+                  <value>&quot;Michigan&quot;</value>
+                  <value>&quot;Minnesota&quot;</value>
+                  <value>&quot;Missouri&quot;</value>
+                  <value>&quot;Nebraska&quot;</value>
+                  <value>&quot;North Dakota&quot;</value>
+                  <value>&quot;Ohio&quot;</value>
+                  <value>&quot;South Dakota&quot;</value>
+                  <value>&quot;Wisconsin&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Northeast&quot;'>
+                  <value>&quot;Connecticut&quot;</value>
+                  <value>&quot;Delaware&quot;</value>
+                  <value>&quot;Maine&quot;</value>
+                  <value>&quot;Massachusetts&quot;</value>
+                  <value>&quot;New Hampshire&quot;</value>
+                  <value>&quot;New Jersey&quot;</value>
+                  <value>&quot;New York&quot;</value>
+                  <value>&quot;Pennsylvania&quot;</value>
+                  <value>&quot;Rhode Island&quot;</value>
+                  <value>&quot;Vermont&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Southeast&quot;'>
+                  <value>&quot;Alabama&quot;</value>
+                  <value>&quot;Arkansas&quot;</value>
+                  <value>&quot;District of Columbia&quot;</value>
+                  <value>&quot;Florida&quot;</value>
+                  <value>&quot;Georgia&quot;</value>
+                  <value>&quot;Kentucky&quot;</value>
+                  <value>&quot;Louisiana&quot;</value>
+                  <value>&quot;Maryland&quot;</value>
+                  <value>&quot;Mississippi&quot;</value>
+                  <value>&quot;North Carolina&quot;</value>
+                  <value>&quot;South Carolina&quot;</value>
+                  <value>&quot;Tennessee&quot;</value>
+                  <value>&quot;Virginia&quot;</value>
+                  <value>&quot;West Virginia&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;Southwest&quot;'>
+                  <value>&quot;Arizona&quot;</value>
+                  <value>&quot;New Mexico&quot;</value>
+                  <value>&quot;Oklahoma&quot;</value>
+                  <value>&quot;Texas&quot;</value>
+                </bin>
+                <bin default-name='false' value='&quot;West&quot;'>
+                  <value>&quot;Alaska&quot;</value>
+                  <value>&quot;California&quot;</value>
+                  <value>&quot;Colorado&quot;</value>
+                  <value>&quot;Hawaii&quot;</value>
+                  <value>&quot;Idaho&quot;</value>
+                  <value>&quot;Montana&quot;</value>
+                  <value>&quot;Nevada&quot;</value>
+                  <value>&quot;Oregon&quot;</value>
+                  <value>&quot;Utah&quot;</value>
+                  <value>&quot;Washington&quot;</value>
+                  <value>&quot;Wyoming&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Current residence in]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Net Migration]' role='measure' type='quantitative' />
+            <column-instance column='[Net Migration]' derivation='Sum' name='[sum:Net Migration:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Longitude (generated)]' field-type='quantitative' max='35205497.924069695' min='24017556.065677244' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Latitude (generated)]' field-type='quantitative' max='10230149.268962456' min='1218069.0399946801' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Current residence in (group)]' />
+              <color column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Net Migration:qk]' />
+              <geometry column='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Latitude (generated)]</rows>
+        <cols>[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{216B88CB-45DB-4801-88BE-02BD97773078}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Sheet 1' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='3000' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Multiple Values]' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='10' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='9' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Sheet 1' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='8125' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[Multiple Values]' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CF5838EC-66D0-4DB2-8DF4-248B4B67937B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card size='31' type='pages' />
+            <card size='47' type='filters' />
+            <card size='160' type='marks' />
+            <card size='323' type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+            <card param='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[none:Current residence in:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{270D88E6-D685-4F0D-8E2B-EF1C5FF958FE}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{2A08C239-9509-4BBF-9BA6-FCBD03B04393}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='200'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='38'>
+            <card type='columns' />
+          </strip>
+          <strip size='38'>
+            <card type='rows' />
+          </strip>
+          <strip size='38'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='200'>
+            <card pane-specification-id='0' param='[federated.12g4b3r1jvsujx14mxzzx1bj9su7].[sum:Net Migration:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{CE5815BA-71B4-4474-854D-3E31C7FDABB9}' />
+    </window>
+  </windows>
+</workbook>
