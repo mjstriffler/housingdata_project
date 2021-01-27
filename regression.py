@@ -15,16 +15,7 @@ dummy = ["Year", "Before Tax Change", "Current residence in"]
 
 combined_data = pd.get_dummies(combined_data, columns= dummy)
 
-columns = ['Median Income', 'Avg. Home Price','Unemployment Rate','Total Population','Year_2010',
- 'Year_2011',
- 'Year_2012',
- 'Year_2013',
- 'Year_2014',
- 'Year_2015',
- 'Year_2016',
- 'Year_2017',
- 'Year_2018',
- 'Year_2019',
+columns = ['Median Income', 'Avg Home Price','Unemployment Rate','Total Population',
  'Before Tax Change_no',
  'Current residence in_Alabama',
  'Current residence in_Alaska',
@@ -87,15 +78,27 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 
+importance=model.coef_[0]
+
+features_importance = []
+
+for i, v in enumerate(importance):
+    features_importance.append(v)
+
+
+features_importance_names = zip(features_importance, columns)
+print(tuple(features_importance_names))   
+
 predicted = model.predict(X_test)
 
 mse = mean_squared_error(y_test, predicted)
 r2 = r2_score(y_test, predicted)
 
 
+print('y-axis intercept: ', model.intercept_)
+
 pickle.dump(model, open('model.pkl','wb'))
 
 
-
-testrun = pickle.load(open('model.pkl','rb'))
-##print(testrun.predict([[1.8]]))
+#testrun = pickle.load(open('model.pkl','rb'))
+print(testrun.predict([['Net Migration']]))

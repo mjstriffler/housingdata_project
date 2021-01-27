@@ -34,7 +34,7 @@
           <br>
           <br>
             <p>
-              <p><form action="./" method="GET">
+              <p><form action="./" method="POST">
                 <fieldset style = "display: inline-block;">
                   <legend>Net Migration Prediction</legend>
                   <!-- <input list="" name="option" id="input"autocomplete="off"> -->
@@ -94,14 +94,15 @@
                       <option value="Wyoming">
                   </datalist>
                   <!-- <label for = "medIncome" style = "display: block;">Enter Median Income</label> -->
-                  <input id = "medIncome" type="text" name = "Median Income" value = "" required placedholder = "Median Income"/>
+                  <input id = "medIncome" type="number" name = "Median Income" value = "" min = "1" required />
                   <!-- <label for = "homePrice">Enter Home Price </label> -->
-                  <input id = "homePrice" type="text" name = "Avg Home Price"  value="" required />
-                  <input id = "unEmployement" name = "Unemployment Rate" type="text" value="" required/>
-                  <input id = "Pop" name = "Total Population" type="text" value="" required/>
+                  <input id = "homePrice" name = "Avg Home Price" type="number" value="" min = "1" required />
+                  <input id = "unEmployement" name = "Unemployment Rate" type="number" value="" min = "1" required/>
+                  <input id = "Pop" name = "Total Population" type="number" value="" min = "1" required/>
                   <button><input type="submit" value="Submit"></button>
-                  <input id = "result" type="text" value="" />
                  </fieldset>
+                 </form>
+                 Migration Prediction : {{predMigrate}}
                  </p>
                   </p>
                     <br>

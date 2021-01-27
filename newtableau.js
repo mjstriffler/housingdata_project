@@ -35,5 +35,3 @@ function migrationCalculate(){
 // var netMigration = (-0.44387379688931183(medincome) + 0.015972921446556314(homeprice)+ (-1797.7717263571649(umemployment)) + 0.004259499225071295(totalpop) +4600.38253616)
 
 }
-
-
