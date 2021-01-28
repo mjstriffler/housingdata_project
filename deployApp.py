@@ -108,7 +108,7 @@ def index():
         # data4 = np.fromstring(data2, dtype=int)
         # usmig = [medincome, homeprice, umemployment, totalpop]
 
-        predMigrate = testrun.predict(x2).reshape(-1,1)
+        predMigrate = testrun.predict(x2)
 
         return render_template('tableau.html', predMigrate= predMigrate)
 
