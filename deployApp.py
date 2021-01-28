@@ -112,7 +112,7 @@ def index():
 
         predMigrate = testrun.predict(x2)
 
-        return render_template('tableau.html', state=usState , predMigrate= predMigrate)
+        return render_template('tableau.html', state=usState , predMigrate= predMigrate [0])
 
     return render_template('tableau.html')
     
