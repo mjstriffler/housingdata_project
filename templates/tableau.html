@@ -38,8 +38,8 @@
                 <fieldset style = "display: inline-block;">
                   <legend>Net Migration Prediction</legend>
                   <!-- <input list="" name="option" id="input"autocomplete="off"> -->
-                  <label for="myBrowser">Choose a state from this list:</label>
-                  <input list="states" id="State" name="State" />
+                  <label for="myBrowser">Choose a state:</label>
+                  <input list="states" id="State" name="State" placeholder = "New Jersey" />
                   <datalist id="states">
                       <option value="Alabama">
                       <option value="Alaska">
@@ -94,20 +94,20 @@
                       <option value="Wyoming">
                   </datalist>
                   <label for = "medIncome" style = "display: inside;">Enter Median Income</label>
-                  <input id = "medIncome" type="number" name = "Median Income" value = "" min = "1" max = "500000" required />
+                  <input id = "medIncome" type="number" name = "Median Income" value = "" min = "1" max = "500000" placeholder = "30000"  required />
                   <label for = "homePrice" style = "display: inside;">Enter Home Price </label>
-                  <input id = "homePrice" type="number" name = "Avg Home Price"  value="" min = "1" max = "1000000"required />
+                  <input id = "homePrice" type="number" name = "Avg Home Price"  value="" min = "1" max = "1000000" placeholder = "250000" required />
                   <br>
                   <label for = "unEmployement" style = "display: inside;">Enter Unemployment Rate </label>
-                  <input id = "unEmployement" name = "Unemployment Rate" type="number" value="" min = "1" max = "15"required/>
+                  <input id = "unEmployement" name = "Unemployment Rate" type="number" value="" min = "1" max = "15" placeholder = "14" required/>
                   <label for = "Pop" style = "display: inside;">Enter Total Population </label>
-                  <input id = "Pop" name = "Total Population" type="number" value="" min = "1" max = "40000000"required/>
+                  <input id = "Pop" name = "Total Population" type="number" value="" min = "1" max = "40000000" placeholder = "1000000"required/>
                   <button><input type="submit" value="Submit"></button>
                  </fieldset>
                  </form>
                  State: {{state}}
                  <br>
-                 Migration Prediction : {{predMigrate}}
+                 Migration Prediction : {{predMigrate[0]}}
                  </p>
                   </p>
                     <br>
