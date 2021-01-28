@@ -45,7 +45,7 @@ top:130px;
 
 #mainpic
 {
-background-image:url(/images/migrants.jpg);
+background-image:url(migrants.jpg);
 background-repeat:no-repeat;
 width:930px;
 height:200px;	
@@ -64,7 +64,7 @@ color:#B1C6FC
 
 #menu
 {
-background-image:url(/images/menu.png);
+background-image:url(menu.png);
 background-repeat:no-repeat;
 width:940px;
 float:left;

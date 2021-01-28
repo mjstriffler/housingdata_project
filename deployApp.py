@@ -10,10 +10,9 @@ import joblib
 app = Flask(__name__)
 
 
-
 # Load the model
 
-with open('model.pkl', 'rb') as file:  
+with open('predict.pkl', 'rb') as file:  
     testrun = pickle.load(file)
 
 #testrun = pickle.load(open('model.pkl','rb'))
@@ -22,21 +21,96 @@ with open('model.pkl', 'rb') as file:
 ##Define app routoe 
 @app.route('/', methods=['GET', 'POST'])
 
+
+
 def index():
     if request.method == 'POST':
 
-        medincome = request.form['Median Income']
-        homeprice = request.form['Avg Home Price']
-        umemployment = request.form["Unemployment Rate"]
-        totalpop = request.form["Total Population"]
-        usState = request.form['State']
-        statekey = "Current residence in_" + usState
-        
-        dict = {"Median Income" : int(medincome), "Avg Home Price" : int(homeprice), "Unemployment Rate": int(umemployment), statekey: "1"}
-        data = list(dict.items())
-        predMigrate = testrun.predict(np.array(data))
+     
 
-        return render_template('tableau.html', predMigrate=predMigrate)
+        medincome = (request.form['Median Income'])
+        homeprice = request.form.get('Avg Home Price')
+        umemployment = request.form.get("Unemployment Rate")
+        totalpop = request.form.get("Total Population")
+         
+
+# stateList = [
+#         Alabama,
+#         Alaska,
+#         Arizona,
+#         Arkansas,
+#         California,
+#         Colorado,
+#         Connecticut,
+#         Delaware,
+#         Florida,
+#         Georgia,
+#         Hawaii,
+#         Idaho,
+#         Illinois,
+#         Indiana,
+#         Iowa,
+#         Kansas,
+#         Kentucky,
+#         Louisiana,
+#         Maine,
+#         Maryland,
+#         Massachusetts,
+#         Michigan,
+#         Minnesota,
+#         Mississippi,
+#         Missouri,
+#         Montana,
+#         Nebraska,
+#         Nevada,
+#         New_Hampshire,
+#         New_Jersey,
+#         New_Mexico,
+#         New_York,
+#         North_Carolina,
+#         North_Dakota,
+#         Ohio,
+#         Oklahoma,
+#         Oregon,
+#         Pennsylvania,
+#         Rhode_Island,
+#         South_Carolina,
+#         South_Dakota,
+#         Tennessee,
+#         Texas,
+#         Utah,
+#         Vermont,
+#         Virginia,
+#         Washington,
+#         West_Virginia,
+#         Wisconsin,
+#         Wyoming]
+
+    # for state in stateList:
+
+#         if  state == request.form["State"]:
+            
+#             statekey = "Current residence in_" + state
+
+
+#         else:
+#             nonstatekey = "Current residence in_" + state
+    
+
+
+        
+        x1= {"Median Income" : [medincome], "Avg Home Price" : [homeprice], "Unemployment Rate": [umemployment], "Total Population" : [totalpop]}
+        x2 = pd.DataFrame(x1)
+
+        # data = list(dict.items())
+        # data2 = np.array(data)
+        # data3 = data2.tostring()
+        # data4 = np.fromstring(data2, dtype=int)
+        # usmig = [medincome, homeprice, umemployment, totalpop]
+
+        predMigrate = testrun.predict(x2).reshape(-1,1)
+
+        return render_template('tableau.html', predMigrate= predMigrate)
 
     return render_template('tableau.html')
     
@@ -49,31 +123,10 @@ def index():
 #   console.log("Request complete! response:", res);
 # })
 
-# def predict():
-#     # Get the data from the POST request.
-#     data = request.get_json(force=True)
+@app.route('/about')
 
-#     data = pd.read_excel('2010-2019combineddata.xls')
-#     dummy = ["Year", "Before Tax Change", "Current residence in"]
-
-#     combined_data = pd.get_dummies(data, columns= dummy)
-
-#     # Make prediction using model loaded from disk as per the data.
-#     prediction = testrun.predict(np.array
-
-#  pred = model.predict(np.array([int(bedrooms), int(baths), int(sqft]))
-#     # Take the first value of prediction
-#     output = prediction[0]
-#     return jsonify(output)
-
-#     return render_template("tableau.html")
-
-
-# @app.route("/")
-# def tableau():
-   
-#     return render_template("tableau.html")
-
+def about():
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
