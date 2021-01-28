@@ -38,7 +38,7 @@
                 <fieldset style = "display: inline-block;">
                   <legend>Net Migration Prediction</legend>
                   <!-- <input list="" name="option" id="input"autocomplete="off"> -->
-                  <!-- <label for="myBrowser">Choose a browser from this list:</label> -->
+                  <label for="myBrowser">Choose a state from this list:</label>
                   <input list="states" id="State" name="State" />
                   <datalist id="states">
                       <option value="Alabama">
@@ -93,11 +93,14 @@
                       <option value="Wisconsin">
                       <option value="Wyoming">
                   </datalist>
-                  <!-- <label for = "medIncome" style = "display: block;">Enter Median Income</label> -->
+                  <label for = "medIncome" style = "display: inside;">Enter Median Income</label>
                   <input id = "medIncome" type="number" name = "Median Income" value = "" min = "1" max = "500000" required />
-                  <!-- <label for = "homePrice">Enter Home Price </label> -->
+                  <label for = "homePrice" style = "display: inside;">Enter Home Price </label>
                   <input id = "homePrice" type="number" name = "Avg Home Price"  value="" min = "1" max = "1000000"required />
+                  <br>
+                  <label for = "unEmployement" style = "display: inside;">Enter Unemployment Rate </label>
                   <input id = "unEmployement" name = "Unemployment Rate" type="number" value="" min = "1" max = "15"required/>
+                  <label for = "Pop" style = "display: inside;">Enter Total Population </label>
                   <input id = "Pop" name = "Total Population" type="number" value="" min = "1" max = "40000000"required/>
                   <button><input type="submit" value="Submit"></button>
                  </fieldset>
