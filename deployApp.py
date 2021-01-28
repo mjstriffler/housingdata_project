@@ -32,6 +32,8 @@ def index():
         homeprice = request.form.get('Avg Home Price')
         umemployment = request.form.get("Unemployment Rate")
         totalpop = request.form.get("Total Population")
+        usState = request.form.get("State")
+        
          
 
 # stateList = [
@@ -110,7 +112,7 @@ def index():
 
         predMigrate = testrun.predict(x2)
 
-        return render_template('tableau.html', predMigrate= predMigrate)
+        return render_template('tableau.html', state=usState , predMigrate= predMigrate)
 
     return render_template('tableau.html')
     
