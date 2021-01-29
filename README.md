@@ -1,7 +1,7 @@
 # Influences of National Geographic Migration 
 ## Machine Learning Application
 
-In order to deploy our app, please used the **deployApp.py** file to run the Flask app. This app is connects our model with our HTML pages that hold the form for the user-inputted variables and Tableau visualizations. 
+In order to deploy our app, please use the **deployApp.py** file to run the Flask app. This app is connects our model with our HTML pages that hold the form for the user-inputted variables and Tableau visualizations. 
 
 Using our site, users can input certain variables and have our model predict the net migration for that state. It also provides our users with the visualizations of net migration across the United States for the past decade. Ultimately, we created an HTML webpage that runs through our Flask server that holds all our findings. Despite our limitations, we successfully produced interactive visualizations of our extracted results
 
